@@ -1,4 +1,4 @@
-My Frontend Development Journey
+# My Frontend Development Journey
 Welcome to my GitHub repository! 🌟
 
 I'm excited to share that I'm starting to learn frontend development. This repo will be my playground for experimenting with HTML, CSS, and JavaScript, as well as any other tools and frameworks I discover along the way.
