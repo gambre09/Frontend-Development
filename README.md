@@ -11,6 +11,6 @@ I'm excited to share that I'm starting to learn frontend development. This repo 
 ## Why Frontend Development?
 I've always been fascinated by the visual and interactive aspects of websites and apps. By learning frontend development, I aim to bring my ideas to life and create engaging user experiences.
 
-Let's Connect!
+## Let's Connect!
 If you have any tips, resources, or just want to say hi, feel free to reach out! I'm eager to learn and connect with other developers. 😊
 
