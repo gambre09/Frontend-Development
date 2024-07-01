@@ -13,7 +13,8 @@
 - **Go through html form tag types**
 
 ![image](https://github.com/gambre09/Frontend-Development/assets/115577142/7a6de618-de5f-477c-8963-e46437f76766)
-![image](https://github.com/gambre09/Frontend-Development/assets/115577142/0fdfad64-9540-4bc8-b613-da94526fc1b4)
+![image](https://github.com/gambre09/Frontend-Development/assets/115577142/ad6b5ace-dbbb-4f62-bfea-d62e28ee138c)
+
 
 - **Create fuctioning Login/registoring page**
 
