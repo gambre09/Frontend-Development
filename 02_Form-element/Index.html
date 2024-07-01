@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <div hidden>
+      <h1>HTML Form</h1>
+      <h3>Google Search</h3>
+      <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Google search" />
+        <button>Search</button>
+        <h3>Youtube Search</h3>
+      </form>
+      <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" placeholder="Youtube search" />
+        <button>Search</button>
+        <h3>Amazon Search</h3>
+      </form>
+      <form action="https://www.amazon.in/s">
+        <input type="text" name="k" placeholder="Search product" />
+        <button>Search</button>
+      </form>
+      <br />
+      <hr />
+    </div>
+    <div hidden>
+      <h1>Form types</h1>
+      <form action="">
+        <b>Gmail :</b>
+        <input type="email" placeholder="" />
+        <button>Submit</button>
+      </form>
+      <br />
+      <form action="">
+        <b>Password :</b>
+        <input type="password" placeholder="" minlength="6" maxlength="10" />
+        <button>Submit</button>
+      </form>
+      <br />
+      <form action="">
+        <b>Number :</b>
+        <input type="number" placeholder="" />
+        <button>Submit</button>
+      </form>
+      <br />
+      <form action="">
+        <b>Date-Time local :</b>
+        <input type="date" placeholder="" />
+      </form>
+      <br />
+      <form action="">
+        <b>Checkbox :</b>
+        <legend>Language Spoken :</legend>
+        <input type="checkbox" /> English <br />
+        <input type="checkbox" /> Hindi <br />
+        <input type="checkbox" /> Marathi <br />
+      </form>
+      <br />
+      <form action="">
+        <b>Checkbox :</b>
+        <input type="radio" name="gender" /> Male
+        <input type="radio" name="gender" /> Female
+      </form>
+      <br />
+      <form action="">
+        <b>File :</b>
+        <input type="file" />
+      </form>
+      <br />
+      <form action="">
+        <b>Mobile Number :</b>
+        <input type="tel" minlength="10" maxlength="10" />
+        <button>Send OTP</button>
+      </form>
+      <br />
+    </div>
+
+    <div hidden>
+      <h1>Login Form</h1>
+      <h2>Create account</h2>
+      <form action="">
+        <div>
+          <p>
+            <label for="yourname">Your name :</label>
+            <input
+              type="text"
+              name="yourname"
+              id=""
+              placeholder="Enter your name"
+            />
+          </p>
+        </div>
+        <div>
+          <p>
+            <label for="email">Email :</label>
+            <input
+              type="email"
+              name="email"
+              id=""
+              placeholder="Enter your email"
+            />
+          </p>
+        </div>
+        <div>
+          <p>
+            <label for="mobile">Mobile number :</label>
+            <input
+              type="tel"
+              name="mobile"
+              id=""
+              placeholder="Enter your mobile number"
+              minlength="10"
+              maxlength="10"
+            />
+          </p>
+        </div>
+        <div>
+          <p>
+            <label for="password">Password :</label>
+            <input
+              type="password"
+              name="password"
+              id=""
+              placeholder="Enter your password"
+            />
+          </p>
+        </div>
+        <button type="reset">Reset</button>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
