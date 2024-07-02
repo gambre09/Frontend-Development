@@ -2,7 +2,7 @@
 
 - **Routing**: Routing in HTML typically involves using hyperlinks (`<a>` tags) to navigate between different pages of a website.
 - **Navigation**: Navigating to a Section in the Same Page
-eg.
+
 ## Routing
 - **Internal Links**: Links to other pages within the same website.
     ```html
@@ -25,5 +25,5 @@ eg.
     ```html
     <a href="#section1">Go to Section 1</a>
     ```
-
+## Output
 ![image](https://github.com/gambre09/Frontend-Development/assets/115577142/390f6876-42c2-45d4-9a03-b29bd4cde279)
