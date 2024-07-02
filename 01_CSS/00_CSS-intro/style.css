@@ -1,0 +1,15 @@
+p {
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: underline double;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a{
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding: 40px;
+}
+
