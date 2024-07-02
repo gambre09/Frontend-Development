@@ -104,4 +104,4 @@ ol li {
 ```
 
 ## Design
-![image](https://github.com/gambre09/Frontend-Development/assets/115577142/9b441e19-d9ce-4fa1-b65d-352f0c5bbefd)
+![image](https://github.com/gambre09/Frontend-Development/assets/115577142/a5ca4827-9e8e-45b2-b786-171abd3f07d4)
