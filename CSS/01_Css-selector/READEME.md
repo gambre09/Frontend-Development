@@ -32,13 +32,14 @@
     <p class="class">Class selector</p>
     <p id="id">Id selector</p>
     <p any-name>Attribute selector</p>
-
-    <h3>Combinator selector:-</h3>
+    <p comb>Combinator selector:-</p>
     <ol>
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem dolor sit amet.</li>
       <li>Lorem wwewe dolor sit amet.</li>
     </ol>
+    <p p>Pseudo selector</p>
+    <p class="hover">Hover at me</p>
   </body>
 </html>
 ```
@@ -70,10 +71,18 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
-ol {
-  margin-top: 0px;
-  padding-left: 15px;
+[comb]{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(4, 176, 4);
+    text-decoration: underline;
+}
+[p]{
+    color: red;
+    text-decoration:underline;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 ```
 - Combinator selectors (followed by child tag) :-
@@ -82,15 +91,15 @@ ol li {
   color: rgb(168, 13, 245);
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 16px;
   font-weight: 700;
 }
+
 ```
 - Pseudo Selector (tag/selector:pseudo) :-
 ```
-h1:hover{
+.hover:hover{
     color: blue;
-    font-style: italic;
-    width: 180px;
 }
 ```
 
