@@ -1,6 +1,10 @@
+h1{
+    width: 180px;
+}
 p {
   font-weight: 700;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 ul {
@@ -52,9 +56,23 @@ h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+[comb]{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(4, 176, 4);
+    text-decoration: underline;
+}
+[p]{
+    color: red;
+    text-decoration:underline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 ol {
   margin-top: 0px;
+  margin-bottom: 0px;
   padding-left: 15px;
 }
 
@@ -63,12 +81,11 @@ ol li {
   color: rgb(168, 13, 245);
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 /* Pseudo Selector */
-h1:hover{
+.hover:hover{
     color: blue;
-    font-style: italic;
-    width: 180px;
 }
