@@ -1,0 +1,91 @@
+h1{
+    width: 180px;
+}
+p {
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+ul {
+  padding-left: 15px;
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.html {
+  color: red;
+}
+.css {
+  color: blue;
+}
+.JavaScript {
+  color: yellow;
+}
+.React {
+  color: blueviolet;
+}
+.Tailwind {
+  color: coral;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+
+/* Class Selector */
+.class {
+  color: blue;
+  text-decoration: underline blue;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+/* Id Selectors */
+#id {
+  color: brown;
+  text-decoration: underline;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+/* Attribute Selector */
+[any-name] {
+  color: darkorange;
+  text-decoration: underline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+[comb]{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(4, 176, 4);
+    text-decoration: underline;
+}
+[p]{
+    color: red;
+    text-decoration:underline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+}
+
+/* Combinator selectors */
+ol li {
+  color: rgb(168, 13, 245);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Pseudo Selector */
+.hover:hover{
+    color: blue;
+}
