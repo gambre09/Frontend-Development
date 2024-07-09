@@ -1,0 +1,90 @@
+body {
+  color: white;
+}
+h2 {
+  font-size: 32px;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+p {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Lexend Deca", sans-serif;
+}
+#cars {
+  width: 180px;
+  height: 320px;
+  padding: 50px;
+}
+img {
+  width: 50px;
+}
+.frame {
+  max-width: min-content;
+  max-height: min-content;
+  background-color: hotpink;
+  border-radius: 10px;
+  overflow: hidden;
+
+  position: absolute;
+  margin: auto;
+  inset: 0;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border: solid white 2px;
+
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  
+  display: inline-block;
+  margin-top: 24%;
+}
+
+.sedans {
+  background-color: #e28525;
+}
+.sedans a {
+  color: #e28525;
+}
+.sedans a:hover {
+  color: white;
+  background-color: #e28525;
+  border: solid white 2px;
+}
+
+.suv {
+  background-color: #016972;
+}
+.suv a {
+  color: #016972;
+}
+.suv a:hover {
+  color: white;
+  background-color: #016972;
+  border: solid white 2px;
+}
+
+.luxury {
+  background-color: #00403f;
+}
+.luxury a {
+  color: #00403f;
+}
+.luxury a:hover {
+  color: white;
+  background-color: #00403f;
+  border: solid white 2px;
+}
+
+@media (max-width: 700px){
+  .frame{
+    display: block;
+    margin-top: 50px;
+    }
+}
