@@ -4,20 +4,24 @@ Center content/Flex box:- https://youtu.be/phWxA89Dy94?si=efc1f-CkFVkdw_94
 
 ## Flexbox and Centering.
 ```
-  position: absolute;
-  margin: auto;
-  inset: 0;
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 ```
 - Using properties like display: flex, position: absolute, and margin: auto to achieve precise element positioning.
 - Utilizing Flexbox for layout control, making it easier to center elements both horizontally and vertically within a container.
 
 ## Responsive Design.
 ```
-@media (max-width: 700px){
-  .frame{
-    display: block;
-    margin-top: 50px;
+@media (max-width:720px) {
+    .cars-container{
+        flex-direction: column;
+    }
+    body{
+      height: max-content;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
 }
 ```
