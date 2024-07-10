@@ -1,73 +1,36 @@
-body {
-  color: white;
-}
-h2 {
-  font-size: 32px;
-  font-family: "Big Shoulders Display", sans-serif;
-}
-p {
-  font-size: 12px;
-  line-height: 20px;
-  font-family: "Lexend Deca", sans-serif;
-}
-#cars {
-  width: 180px;
-  height: 320px;
-  padding: 50px;
-}
 img {
-  width: 50px;
+  width: 60px;
 }
-.frame {
-  max-width: min-content;
-  max-height: min-content;
-  background-color: hotpink;
-  border-radius: 10px;
-  overflow: hidden;
-
-  position: absolute;
-  margin: auto;
-  inset: 0;
-  display: flex;
+.sedans h2,
+.luxury h2,
+.suvs h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+    font-size: 30px;
 }
-a {
-  text-decoration: none;
+.sedans,
+.luxury,
+.suvs {
+  width: 200px;
+  height: 370px;
+  padding: 40px;
+  color: white;
   font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-  background-color: white;
-  border: solid white 2px;
-
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 20px;
-  
-  display: inline-block;
-  margin-top: 24%;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
 }
-
 .sedans {
   background-color: #e28525;
 }
 .sedans a {
   color: #e28525;
 }
-.sedans a:hover {
-  color: white;
-  background-color: #e28525;
-  border: solid white 2px;
-}
 
-.suv {
+.suvs {
   background-color: #016972;
 }
-.suv a {
+.suvs a {
   color: #016972;
-}
-.suv a:hover {
-  color: white;
-  background-color: #016972;
-  border: solid white 2px;
 }
 
 .luxury {
@@ -76,15 +39,47 @@ a {
 .luxury a {
   color: #00403f;
 }
-.luxury a:hover {
-  color: white;
-  background-color: #00403f;
+
+a {
   border: solid white 2px;
+  background-color: white;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 60px;
+  font-weight: 400;
 }
 
-@media (max-width: 700px){
-  .frame{
-    display: block;
-    margin-top: 50px;
+.cars-container {
+  border-radius: 10px;
+  width: max-content;
+  height: max-content;
+  overflow: hidden;
+  display: flex;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover{
+    background-color: transparent;
+    color: white;
+}
+
+@media (max-width:720px) {
+    .cars-container{
+        flex-direction: column;
+    }
+    body{
+      height: max-content;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
 }
