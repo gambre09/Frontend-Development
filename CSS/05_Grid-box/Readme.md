@@ -9,7 +9,7 @@ For better understanding - https://youtu.be/EiNiSFIPIQE?si=mSiFuGU_D9pzqQx0
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 ```
-here 1fr means 1 columnm
+here 1fr means 1 fractional value of given space of conatiner.
 
 ## Design
 ![image](https://github.com/user-attachments/assets/e7f50378-98c9-4fa3-95e7-1d1e261a245e)
